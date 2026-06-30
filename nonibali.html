@@ -1,0 +1,1889 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noni Bali — Home</title>
+  <meta name="description" content="Minuman herbal noni premium dari Bali. Alami, hangat, terpercaya, dan diracik untuk gaya hidup sehat modern." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f5efe5;
+      --bg-2:#efe6d7;
+      --surface:rgba(255,250,243,.72);
+      --surface-strong:#fffaf2;
+      --text:#1f251f;
+      --muted:#617062;
+      --line:rgba(31,37,31,.12);
+      --primary:#284233;
+      --primary-2:#486a53;
+      --accent:#b9893e;
+      --accent-soft:#ecdab4;
+      --success:#3f6a4d;
+      --shadow:0 20px 60px rgba(26,31,26,.10);
+      --shadow-soft:0 10px 30px rgba(26,31,26,.08);
+      --radius-xl:30px;
+      --radius-lg:22px;
+      --radius-md:16px;
+      --container:min(1180px, calc(100vw - 40px));
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      color:var(--text);
+      font-family:"Manrope", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(185,137,62,.12), transparent 28%),
+        radial-gradient(circle at 90% 18%, rgba(72,106,83,.12), transparent 24%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+      overflow-x:hidden;
+    }
+
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      opacity:.05;
+      background-image:
+        radial-gradient(circle, rgba(0,0,0,.12) 1px, transparent 1px),
+        linear-gradient(transparent, rgba(0,0,0,.02));
+      background-size:18px 18px, 100% 100%;
+      z-index:0;
+    }
+
+    img,svg{display:block;max-width:100%}
+    a{text-decoration:none;color:inherit}
+    button,input,textarea,select{font:inherit}
+
+    .site{
+      position:relative;
+      z-index:1;
+    }
+
+    .container{
+      width:var(--container);
+      margin-inline:auto;
+    }
+
+    .section{
+      padding:80px 0;
+    }
+
+    .section-title{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:24px;
+      align-items:end;
+      margin-bottom:34px;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid rgba(40,66,51,.14);
+      background:rgba(255,250,243,.62);
+      color:var(--primary);
+      font-size:.88rem;
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      backdrop-filter:blur(16px);
+    }
+
+    .eyebrow::before{
+      content:"";
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background:linear-gradient(135deg, var(--accent), #d5b06b);
+      box-shadow:0 0 0 5px rgba(185,137,62,.12);
+    }
+
+    h1,h2,h3{
+      margin:0;
+      font-family:"Cormorant Garamond", serif;
+      letter-spacing:-.03em;
+      line-height:.95;
+      font-weight:700;
+    }
+
+    h1{font-size:clamp(3.4rem, 8vw, 7rem)}
+    h2{font-size:clamp(2.3rem, 4.8vw, 4.2rem)}
+    h3{font-size:clamp(1.45rem, 2.4vw, 2rem)}
+
+    p{
+      margin:0;
+      color:var(--muted);
+      line-height:1.8;
+    }
+
+    .topbar{
+      padding:18px 0 0;
+    }
+
+    .topbar-shell{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+      padding:14px 18px;
+      border:1px solid var(--line);
+      background:rgba(255,250,243,.72);
+      backdrop-filter:blur(18px);
+      border-radius:999px;
+      box-shadow:var(--shadow-soft);
+      animation:fadeUp .8s ease both;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:14px;
+    }
+
+    .brand-mark{
+      width:46px;
+      height:46px;
+      border-radius:16px;
+      background:linear-gradient(135deg, var(--primary), var(--primary-2));
+      display:grid;
+      place-items:center;
+      color:#fff;
+      font-weight:800;
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.24);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .brand-mark::after{
+      content:"";
+      position:absolute;
+      inset:auto -10px -16px auto;
+      width:32px;
+      height:32px;
+      background:rgba(255,255,255,.12);
+      border-radius:50%;
+    }
+
+    .brand-copy strong{
+      display:block;
+      font-size:.98rem;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+
+    .brand-copy span{
+      display:block;
+      color:var(--muted);
+      font-size:.82rem;
+    }
+
+    .nav{
+      display:flex;
+      align-items:center;
+      gap:24px;
+    }
+
+    .nav a{
+      position:relative;
+      font-size:.94rem;
+      font-weight:700;
+      color:var(--text);
+    }
+
+    .nav a::after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:-6px;
+      width:100%;
+      height:1px;
+      background:var(--primary);
+      transform:scaleX(0);
+      transform-origin:right;
+      transition:transform .35s ease;
+    }
+
+    .nav a:hover::after{
+      transform:scaleX(1);
+      transform-origin:left;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      border:0;
+      cursor:pointer;
+      transition:transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+      border-radius:999px;
+      font-weight:800;
+      letter-spacing:.02em;
+      padding:14px 22px;
+      min-height:52px;
+    }
+
+    .btn:active{transform:translateY(1px) scale(.985)}
+    .btn-primary{
+      color:#fff;
+      background:linear-gradient(135deg, var(--primary), var(--primary-2));
+      box-shadow:0 14px 30px rgba(40,66,51,.22);
+    }
+
+    .btn-primary:hover{
+      transform:translateY(-2px);
+      box-shadow:0 18px 34px rgba(40,66,51,.28);
+    }
+
+    .btn-secondary{
+      color:var(--primary);
+      background:rgba(255,250,243,.76);
+      border:1px solid rgba(40,66,51,.14);
+      backdrop-filter:blur(14px);
+    }
+
+    .btn-secondary:hover{
+      transform:translateY(-2px);
+      background:#fff9ef;
+    }
+
+    .hero{
+      padding:38px 0 60px;
+    }
+
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.12fr .88fr;
+      gap:26px;
+      align-items:stretch;
+    }
+
+    .hero-copy{
+      padding:28px 0 18px;
+    }
+
+    .hero-copy .eyebrow{animation:fadeUp .8s .05s ease both}
+    .hero-copy h1{margin:18px 0 18px; animation:fadeUp .8s .14s ease both}
+    .hero-copy p{max-width:62ch; font-size:1.04rem; animation:fadeUp .8s .24s ease both}
+
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      margin-top:28px;
+      animation:fadeUp .8s .34s ease both;
+    }
+
+    .hero-stats{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:14px;
+      margin-top:30px;
+      animation:fadeUp .8s .44s ease both;
+    }
+
+    .stat{
+      padding:18px 16px;
+      border-radius:20px;
+      border:1px solid var(--line);
+      background:rgba(255,250,243,.62);
+      backdrop-filter:blur(16px);
+      box-shadow:var(--shadow-soft);
+    }
+
+    .stat strong{
+      display:block;
+      font-size:1.4rem;
+      color:var(--primary);
+      margin-bottom:4px;
+    }
+
+    .stat span{
+      color:var(--muted);
+      font-size:.92rem;
+    }
+
+    .hero-visual{
+      position:relative;
+      min-height:620px;
+      border-radius:var(--radius-xl);
+      overflow:hidden;
+      border:1px solid rgba(40,66,51,.12);
+      background:
+        radial-gradient(circle at 24% 24%, rgba(255,255,255,.75), transparent 20%),
+        radial-gradient(circle at 80% 22%, rgba(236,218,180,.9), transparent 16%),
+        linear-gradient(180deg, rgba(255,250,243,.95), rgba(247,239,226,.78));
+      box-shadow:var(--shadow);
+      animation:fadeUp .9s .18s ease both;
+      isolation:isolate;
+    }
+
+    .hero-visual::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        linear-gradient(130deg, transparent 0 38%, rgba(40,66,51,.05) 38% 42%, transparent 42% 100%);
+      pointer-events:none;
+    }
+
+    .leaf{
+      position:absolute;
+      border-radius:60% 40% 65% 35% / 40% 60% 40% 60%;
+      filter:blur(.2px);
+      opacity:.95;
+    }
+
+    .leaf-a{
+      width:190px;
+      height:340px;
+      right:58px;
+      top:58px;
+      background:linear-gradient(180deg, #6b9274, #31513c);
+      transform:rotate(18deg);
+    }
+
+    .leaf-b{
+      width:160px;
+      height:280px;
+      right:162px;
+      top:118px;
+      background:linear-gradient(180deg, #8ab08f, #4e7758);
+      transform:rotate(-8deg);
+      opacity:.88;
+    }
+
+    .fruit{
+      position:absolute;
+      width:120px;
+      height:120px;
+      border-radius:36px;
+      background:
+        radial-gradient(circle at 30% 26%, rgba(255,255,255,.45), transparent 18%),
+        linear-gradient(135deg, #b7d28e, #7ea36d 48%, #5f8556 100%);
+      box-shadow:
+        inset -14px -18px 24px rgba(51,73,46,.22),
+        0 20px 32px rgba(34,45,34,.14);
+      transform:rotate(12deg);
+    }
+
+    .fruit::before{
+      content:"";
+      position:absolute;
+      inset:14px;
+      border-radius:26px;
+      background:
+        radial-gradient(circle at 16px 16px, rgba(255,255,255,.14) 2px, transparent 3px),
+        radial-gradient(circle at 42px 36px, rgba(255,255,255,.14) 2px, transparent 3px),
+        radial-gradient(circle at 64px 18px, rgba(255,255,255,.14) 2px, transparent 3px),
+        radial-gradient(circle at 72px 62px, rgba(255,255,255,.14) 2px, transparent 3px),
+        radial-gradient(circle at 26px 76px, rgba(255,255,255,.14) 2px, transparent 3px),
+        radial-gradient(circle at 52px 92px, rgba(255,255,255,.14) 2px, transparent 3px);
+      opacity:.9;
+    }
+
+    .fruit-a{right:178px; bottom:100px}
+    .fruit-b{right:72px; bottom:168px; width:102px; height:102px}
+    .fruit-c{right:252px; bottom:206px; width:88px; height:88px}
+
+    .bottle-wrap{
+      position:absolute;
+      left:54px;
+      bottom:34px;
+      width:min(72%, 360px);
+      aspect-ratio:5/8;
+      display:grid;
+      place-items:end center;
+    }
+
+    .bottle-shadow{
+      position:absolute;
+      bottom:0;
+      width:72%;
+      height:28px;
+      background:radial-gradient(ellipse, rgba(33,38,33,.18), transparent 70%);
+      filter:blur(10px);
+    }
+
+    .bottle{
+      position:relative;
+      width:72%;
+      height:92%;
+    }
+
+    .cap{
+      position:absolute;
+      top:0;
+      left:50%;
+      transform:translateX(-50%);
+      width:26%;
+      height:12%;
+      border-radius:18px 18px 10px 10px;
+      background:linear-gradient(180deg, #2d322e, #0f120f);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.16);
+    }
+
+    .neck{
+      position:absolute;
+      top:10%;
+      left:50%;
+      transform:translateX(-50%);
+      width:18%;
+      height:12%;
+      border-radius:0 0 16px 16px;
+      background:linear-gradient(180deg, #6a3d17, #4f2a10);
+    }
+
+    .body{
+      position:absolute;
+      left:50%;
+      transform:translateX(-50%);
+      top:18%;
+      width:62%;
+      height:70%;
+      border-radius:28px 28px 26px 26px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.24), transparent 16%),
+        linear-gradient(180deg, #7a4a1f 0%, #5d3415 30%, #4c260f 100%);
+      box-shadow:
+        inset -16px 0 24px rgba(0,0,0,.12),
+        inset 10px 0 18px rgba(255,255,255,.08),
+        0 20px 36px rgba(48,25,10,.22);
+      overflow:hidden;
+    }
+
+    .body::before{
+      content:"";
+      position:absolute;
+      left:12%;
+      top:0;
+      width:18%;
+      height:100%;
+      background:linear-gradient(180deg, rgba(255,255,255,.18), rgba(255,255,255,.02));
+      filter:blur(1px);
+    }
+
+    .label{
+      position:absolute;
+      left:50%;
+      top:26%;
+      transform:translateX(-50%);
+      width:76%;
+      height:40%;
+      border-radius:18px;
+      background:
+        linear-gradient(180deg, #fbf5e8, #f2e6c8 78%, #e5d2a3);
+      border:1px solid rgba(92,73,34,.16);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.45),
+        0 12px 22px rgba(90,71,34,.12);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:14px;
+    }
+
+    .label small{
+      display:block;
+      font-size:.7rem;
+      font-weight:800;
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      color:#74551f;
+      margin-bottom:6px;
+    }
+
+    .label strong{
+      display:block;
+      font-family:"Cormorant Garamond", serif;
+      font-size:2rem;
+      line-height:.9;
+      color:#284233;
+    }
+
+    .label span{
+      display:block;
+      margin-top:6px;
+      font-size:.72rem;
+      color:#6f654f;
+      font-weight:700;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+    }
+
+    .stamp{
+      position:absolute;
+      right:20px;
+      top:20px;
+      width:110px;
+      aspect-ratio:1;
+      border-radius:50%;
+      border:1px solid rgba(40,66,51,.14);
+      display:grid;
+      place-items:center;
+      background:rgba(255,250,243,.64);
+      backdrop-filter:blur(16px);
+      box-shadow:var(--shadow-soft);
+      text-align:center;
+      color:var(--primary);
+      font-weight:800;
+      font-size:.8rem;
+      line-height:1.2;
+    }
+
+    .floating-note{
+      position:absolute;
+      left:24px;
+      top:24px;
+      max-width:200px;
+      padding:14px 16px;
+      border-radius:18px;
+      background:rgba(255,250,243,.76);
+      backdrop-filter:blur(16px);
+      border:1px solid rgba(40,66,51,.12);
+      box-shadow:var(--shadow-soft);
+      font-size:.9rem;
+      color:var(--muted);
+    }
+
+    .floating-note strong{
+      display:block;
+      color:var(--text);
+      margin-bottom:4px;
+    }
+
+    .trust-band{
+      padding:10px 0 0;
+    }
+
+    .trust-shell{
+      display:grid;
+      grid-template-columns:repeat(4, minmax(0,1fr));
+      gap:14px;
+    }
+
+    .trust-item{
+      padding:18px 18px;
+      border-radius:20px;
+      border:1px solid var(--line);
+      background:rgba(255,250,243,.6);
+      backdrop-filter:blur(16px);
+      box-shadow:var(--shadow-soft);
+    }
+
+    .trust-item strong{
+      display:block;
+      margin-bottom:4px;
+      font-size:.98rem;
+      color:var(--primary);
+    }
+
+    .products-layout{
+      display:grid;
+      grid-template-columns:1.05fr .95fr;
+      gap:22px;
+      align-items:start;
+    }
+
+    .product-feature{
+      min-height:100%;
+      padding:28px;
+      border-radius:var(--radius-xl);
+      border:1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(255,250,243,.9), rgba(255,250,243,.6));
+      box-shadow:var(--shadow);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .product-feature::after{
+      content:"";
+      position:absolute;
+      right:-40px;
+      top:-40px;
+      width:180px;
+      height:180px;
+      background:radial-gradient(circle, rgba(185,137,62,.16), transparent 66%);
+      border-radius:50%;
+    }
+
+    .product-feature p{
+      max-width:58ch;
+      margin-top:14px;
+    }
+
+    .feature-metrics{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:14px;
+      margin-top:22px;
+    }
+
+    .feature-metrics div{
+      padding:16px;
+      border-radius:18px;
+      background:#fff9ef;
+      border:1px solid rgba(40,66,51,.08);
+    }
+
+    .feature-metrics strong{
+      display:block;
+      color:var(--primary);
+      margin-bottom:4px;
+      font-size:1.05rem;
+    }
+
+    .product-list{
+      display:grid;
+      gap:16px;
+    }
+
+    .product-item{
+      display:grid;
+      grid-template-columns:auto 1fr auto;
+      gap:16px;
+      align-items:center;
+      padding:18px;
+      border-radius:24px;
+      border:1px solid var(--line);
+      background:rgba(255,250,243,.7);
+      backdrop-filter:blur(14px);
+      box-shadow:var(--shadow-soft);
+      transition:transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+    }
+
+    .product-item:hover{
+      transform:translateY(-4px);
+      box-shadow:0 18px 34px rgba(26,31,26,.10);
+      border-color:rgba(40,66,51,.2);
+    }
+
+    .product-icon{
+      width:64px;
+      height:64px;
+      border-radius:20px;
+      display:grid;
+      place-items:center;
+      background:linear-gradient(135deg, rgba(72,106,83,.14), rgba(185,137,62,.18));
+      color:var(--primary);
+      font-size:1.5rem;
+      font-weight:900;
+    }
+
+    .product-copy strong{
+      display:block;
+      font-size:1.05rem;
+      margin-bottom:6px;
+      color:var(--text);
+    }
+
+    .product-copy span{
+      display:inline-block;
+      margin-top:6px;
+      font-size:.82rem;
+      color:var(--accent);
+      font-weight:800;
+      letter-spacing:.05em;
+      text-transform:uppercase;
+    }
+
+    .price{
+      text-align:right;
+    }
+
+    .price strong{
+      display:block;
+      color:var(--primary);
+      font-size:1.1rem;
+      margin-bottom:10px;
+    }
+
+    .story-grid{
+      display:grid;
+      grid-template-columns:.95fr 1.05fr;
+      gap:22px;
+      align-items:stretch;
+    }
+
+    .story-visual,
+    .story-copy{
+      border-radius:var(--radius-xl);
+      border:1px solid var(--line);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }
+
+    .story-visual{
+      position:relative;
+      min-height:420px;
+      background:
+        radial-gradient(circle at 26% 22%, rgba(255,255,255,.5), transparent 22%),
+        linear-gradient(160deg, #f7efe1 0%, #efe2ca 48%, #f7f1e6 100%);
+    }
+
+    .story-visual .pattern{
+      position:absolute;
+      inset:0;
+      background:
+        linear-gradient(135deg, transparent 0 32%, rgba(40,66,51,.05) 32% 35%, transparent 35%),
+        linear-gradient(0deg, transparent 0 80%, rgba(185,137,62,.08) 80% 100%);
+    }
+
+    .jar{
+      position:absolute;
+      left:12%;
+      bottom:12%;
+      width:36%;
+      aspect-ratio:4/5;
+      border-radius:26px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.28), transparent 14%),
+        linear-gradient(180deg, #8b5425 0%, #643618 100%);
+      box-shadow:0 18px 36px rgba(53,29,12,.18);
+    }
+
+    .jar::before{
+      content:"";
+      position:absolute;
+      top:-10%;
+      left:50%;
+      transform:translateX(-50%);
+      width:72%;
+      height:16%;
+      border-radius:18px;
+      background:linear-gradient(180deg, #1c221d, #0e110f);
+    }
+
+    .jar::after{
+      content:"Noni Bali";
+      position:absolute;
+      left:12%;
+      right:12%;
+      top:30%;
+      height:28%;
+      border-radius:18px;
+      background:linear-gradient(180deg, #faf3e3, #e9d7ad);
+      display:grid;
+      place-items:center;
+      font-family:"Cormorant Garamond", serif;
+      font-size:1.6rem;
+      color:var(--primary);
+      font-weight:700;
+      border:1px solid rgba(92,73,34,.16);
+    }
+
+    .bowl{
+      position:absolute;
+      right:10%;
+      bottom:14%;
+      width:34%;
+      aspect-ratio:1/1;
+      border-radius:50%;
+      background:
+        radial-gradient(circle at 50% 38%, #b9d08f 0 16%, #8eae6b 16% 35%, #6c8d54 35% 56%, #caa16c 57% 60%, #7a4c25 60% 100%);
+      box-shadow:0 18px 30px rgba(42,29,12,.14);
+    }
+
+    .story-copy{
+      padding:30px;
+      background:rgba(255,250,243,.72);
+      backdrop-filter:blur(16px);
+    }
+
+    .story-copy p + p{
+      margin-top:14px;
+    }
+
+    .story-checks{
+      display:grid;
+      gap:12px;
+      margin-top:22px;
+    }
+
+    .story-check{
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+      padding:14px 16px;
+      border-radius:18px;
+      background:#fff9ef;
+      border:1px solid rgba(40,66,51,.08);
+    }
+
+    .story-check i{
+      width:26px;
+      height:26px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      background:linear-gradient(135deg, var(--primary), var(--primary-2));
+      color:#fff;
+      font-style:normal;
+      font-size:.8rem;
+      flex:0 0 auto;
+    }
+
+    .benefits-wrap{
+      display:grid;
+      grid-template-columns:repeat(4, minmax(0,1fr));
+      gap:16px;
+    }
+
+    .benefit{
+      padding:22px 18px;
+      border-radius:24px;
+      background:rgba(255,250,243,.66);
+      border:1px solid var(--line);
+      box-shadow:var(--shadow-soft);
+    }
+
+    .benefit .num{
+      display:inline-flex;
+      min-width:42px;
+      height:42px;
+      border-radius:14px;
+      align-items:center;
+      justify-content:center;
+      background:linear-gradient(135deg, rgba(72,106,83,.12), rgba(185,137,62,.16));
+      color:var(--primary);
+      font-weight:800;
+      margin-bottom:14px;
+    }
+
+    .benefit p{
+      margin-top:8px;
+      font-size:.95rem;
+    }
+
+    .testi-layout{
+      display:grid;
+      grid-template-columns:.95fr 1.05fr;
+      gap:22px;
+    }
+
+    .quote-box,
+    .testi-list{
+      border-radius:var(--radius-xl);
+      border:1px solid var(--line);
+      background:rgba(255,250,243,.72);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+
+    .quote-box{
+      padding:30px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      min-height:100%;
+      position:relative;
+    }
+
+    .quote-mark{
+      font-family:"Cormorant Garamond", serif;
+      font-size:6rem;
+      line-height:.8;
+      color:rgba(40,66,51,.18);
+    }
+
+    .quote-box h3{
+      margin:12px 0 16px;
+    }
+
+    .testi-list{
+      padding:18px;
+      display:grid;
+      gap:14px;
+    }
+
+    .testi-item{
+      padding:18px;
+      border-radius:22px;
+      background:#fff9ef;
+      border:1px solid rgba(40,66,51,.08);
+      transition:transform .25s ease, box-shadow .25s ease;
+    }
+
+    .testi-item:hover{
+      transform:translateY(-3px);
+      box-shadow:0 14px 28px rgba(26,31,26,.08);
+    }
+
+    .testi-head{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:10px;
+    }
+
+    .avatar{
+      width:44px;
+      height:44px;
+      border-radius:14px;
+      display:grid;
+      place-items:center;
+      background:linear-gradient(135deg, var(--primary), var(--primary-2));
+      color:#fff;
+      font-weight:800;
+    }
+
+    .stars{
+      color:var(--accent);
+      letter-spacing:.08em;
+      font-size:.92rem;
+      font-weight:800;
+    }
+
+    .agent-layout{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:22px;
+    }
+
+    .agent-panel,
+    .cta-panel{
+      border-radius:var(--radius-xl);
+      border:1px solid var(--line);
+      background:rgba(255,250,243,.76);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+
+    .agent-panel{
+      padding:24px;
+    }
+
+    .agent-list{
+      display:grid;
+      gap:14px;
+      margin-top:20px;
+    }
+
+    .agent{
+      display:grid;
+      grid-template-columns:auto 1fr auto;
+      gap:14px;
+      align-items:center;
+      padding:16px;
+      border-radius:20px;
+      background:#fff9ef;
+      border:1px solid rgba(40,66,51,.08);
+    }
+
+    .agent-badge{
+      width:52px;
+      height:52px;
+      border-radius:16px;
+      display:grid;
+      place-items:center;
+      background:linear-gradient(135deg, rgba(72,106,83,.14), rgba(185,137,62,.16));
+      color:var(--primary);
+      font-weight:800;
+    }
+
+    .agent small{
+      display:block;
+      margin-top:4px;
+      color:var(--muted);
+    }
+
+    .cta-panel{
+      position:relative;
+      padding:28px;
+      background:
+        radial-gradient(circle at 84% 18%, rgba(185,137,62,.22), transparent 18%),
+        linear-gradient(135deg, #263f31 0%, #3f644d 100%);
+      color:#fff;
+    }
+
+    .cta-panel p{
+      color:rgba(255,255,255,.82);
+      max-width:54ch;
+      margin-top:14px;
+    }
+
+    .cta-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:24px;
+    }
+
+    .btn-light{
+      background:#fff7ea;
+      color:var(--primary);
+      box-shadow:0 14px 30px rgba(0,0,0,.16);
+    }
+
+    .btn-light:hover{
+      transform:translateY(-2px);
+    }
+
+    .btn-ghost{
+      background:rgba(255,255,255,.08);
+      color:#fff;
+      border:1px solid rgba(255,255,255,.18);
+      backdrop-filter:blur(10px);
+    }
+
+    .faq-wrap{
+      display:grid;
+      gap:14px;
+    }
+
+    .faq-item{
+      border-radius:22px;
+      border:1px solid var(--line);
+      background:rgba(255,250,243,.72);
+      box-shadow:var(--shadow-soft);
+      overflow:hidden;
+    }
+
+    .faq-btn{
+      width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      text-align:left;
+      background:transparent;
+      border:0;
+      padding:20px 22px;
+      cursor:pointer;
+      color:var(--text);
+      font-weight:800;
+    }
+
+    .faq-icon{
+      width:34px;
+      height:34px;
+      border-radius:12px;
+      display:grid;
+      place-items:center;
+      color:var(--primary);
+      background:linear-gradient(135deg, rgba(72,106,83,.12), rgba(185,137,62,.16));
+      transition:transform .25s ease, background .25s ease;
+      flex:0 0 auto;
+    }
+
+    .faq-item.active .faq-icon{
+      transform:rotate(45deg);
+      background:linear-gradient(135deg, rgba(40,66,51,.18), rgba(185,137,62,.2));
+    }
+
+    .faq-content{
+      max-height:0;
+      overflow:hidden;
+      transition:max-height .35s ease;
+    }
+
+    .faq-content-inner{
+      padding:0 22px 22px;
+    }
+
+    .footer{
+      padding:30px 0 40px;
+    }
+
+    .footer-shell{
+      padding:24px;
+      border-radius:30px;
+      background:rgba(255,250,243,.74);
+      border:1px solid var(--line);
+      box-shadow:var(--shadow);
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:24px;
+    }
+
+    .footer-grid{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:18px;
+    }
+
+    .footer h3{
+      font-size:1.3rem;
+      margin-bottom:10px;
+    }
+
+    .footer-links{
+      display:grid;
+      gap:10px;
+    }
+
+    .footer-links a{
+      color:var(--muted);
+      transition:color .25s ease, transform .25s ease;
+      width:max-content;
+    }
+
+    .footer-links a:hover{
+      color:var(--primary);
+      transform:translateX(2px);
+    }
+
+    .copyright{
+      margin-top:20px;
+      padding-top:18px;
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      font-size:.92rem;
+    }
+
+    .reveal{
+      opacity:0;
+      transform:translateY(18px);
+      transition:opacity .75s ease, transform .75s ease;
+    }
+
+    .reveal.is-visible{
+      opacity:1;
+      transform:none;
+    }
+
+    .menu-toggle{
+      display:none;
+      width:48px;
+      height:48px;
+      border-radius:16px;
+      border:1px solid var(--line);
+      background:rgba(255,250,243,.72);
+      color:var(--primary);
+      cursor:pointer;
+    }
+
+    @keyframes fadeUp{
+      from{opacity:0; transform:translateY(18px)}
+      to{opacity:1; transform:none}
+    }
+
+    @media (max-width: 1080px){
+      .hero-grid,
+      .products-layout,
+      .story-grid,
+      .testi-layout,
+      .agent-layout,
+      .footer-shell,
+      .section-title{
+        grid-template-columns:1fr;
+      }
+
+      .benefits-wrap{
+        grid-template-columns:repeat(2, minmax(0,1fr));
+      }
+
+      .trust-shell{
+        grid-template-columns:repeat(2, minmax(0,1fr));
+      }
+    }
+
+    @media (max-width: 820px){
+      .nav{
+        position:absolute;
+        top:76px;
+        left:20px;
+        right:20px;
+        display:none;
+        flex-direction:column;
+        align-items:flex-start;
+        padding:18px;
+        border:1px solid var(--line);
+        border-radius:24px;
+        background:rgba(255,250,243,.92);
+        backdrop-filter:blur(16px);
+        box-shadow:var(--shadow);
+      }
+
+      .nav.open{display:flex}
+      .menu-toggle{display:grid; place-items:center}
+      .topbar-shell{position:relative}
+      .topbar-shell > .btn.btn-primary{display:none}
+      .hero-visual{min-height:520px}
+    }
+
+    @media (max-width: 640px){
+      .section{padding:62px 0}
+      .hero{padding-top:28px}
+      .hero-stats,
+      .feature-metrics,
+      .benefits-wrap,
+      .trust-shell{
+        grid-template-columns:1fr;
+      }
+
+      .product-item,
+      .agent{
+        grid-template-columns:1fr;
+        align-items:flex-start;
+      }
+
+      .price{
+        text-align:left;
+      }
+
+      .hero-visual{
+        min-height:460px;
+      }
+
+      .bottle-wrap{
+        left:24px;
+        width:66%;
+      }
+
+      .leaf-a{
+        width:150px;
+        height:260px;
+        right:30px;
+      }
+
+      .leaf-b{
+        width:120px;
+        height:220px;
+        right:118px;
+      }
+
+      .fruit-a{right:124px; bottom:88px}
+      .fruit-b{right:36px}
+      .fruit-c{right:206px; bottom:180px}
+
+      .footer-grid{
+        grid-template-columns:1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="site">
+    <header class="topbar">
+      <div class="container">
+        <div class="topbar-shell">
+          <a href="#home" class="brand" aria-label="Noni Bali">
+            <div class="brand-mark">NB</div>
+            <div class="brand-copy">
+              <strong>Noni Bali</strong>
+              <span>Herbal wellness from the island</span>
+            </div>
+          </a>
+
+          <nav class="nav" id="siteNav" aria-label="Navigasi utama">
+            <a href="#produk">Produk</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#manfaat">Manfaat</a>
+            <a href="#testimoni">Testimoni</a>
+            <a href="#agen">Agen</a>
+            <a href="#faq">FAQ</a>
+          </nav>
+
+          <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="siteNav">
+            ☰
+          </button>
+
+          <a href="#cta" class="btn btn-primary">Pesan Sekarang</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">Warisan herbal yang terasa modern</span>
+              <h1>Noni Bali untuk rutinitas sehat yang lebih tenang.</h1>
+              <p>
+                Minuman herbal noni premium dengan karakter alami, hangat, dan terpercaya.
+                Dirancang untuk Anda yang menginginkan pengalaman konsumsi herbal yang lebih elegan,
+                lebih nyaman, dan lebih mudah masuk ke gaya hidup sehari-hari.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#produk" class="btn btn-primary">Lihat Produk</a>
+                <a href="#tentang" class="btn btn-secondary">Kenal Lebih Dekat</a>
+              </div>
+
+              <div class="hero-stats">
+                <div class="stat">
+                  <strong>10+</strong>
+                  <span>Tahun dipercaya pelanggan</span>
+                </div>
+                <div class="stat">
+                  <strong>1.000+</strong>
+                  <span>Konsumen setia dari berbagai daerah</span>
+                </div>
+                <div class="stat">
+                  <strong>100%</strong>
+                  <span>Fokus pada pengalaman herbal alami</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+              <div class="floating-note">
+                <strong>Rasa hangat, kesan premium</strong>
+                Dibuat untuk tampil meyakinkan di halaman depan brand herbal Anda.
+              </div>
+
+              <div class="stamp">Natural<br>Daily<br>Wellness</div>
+
+              <div class="leaf leaf-a"></div>
+              <div class="leaf leaf-b"></div>
+              <div class="fruit fruit-a"></div>
+              <div class="fruit fruit-b"></div>
+              <div class="fruit fruit-c"></div>
+
+              <div class="bottle-wrap">
+                <div class="bottle-shadow"></div>
+                <div class="bottle">
+                  <div class="cap"></div>
+                  <div class="neck"></div>
+                  <div class="body">
+                    <div class="label">
+                      <small>Premium Herbal</small>
+                      <strong>Noni Bali</strong>
+                      <span>Mengudu • Wellness Tonic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="trust-band">
+            <div class="trust-shell reveal">
+              <div class="trust-item">
+                <strong>Formula alami</strong>
+                <p>Visual brand yang menonjolkan kesan organik, bersih, dan meyakinkan.</p>
+              </div>
+              <div class="trust-item">
+                <strong>Siap untuk WhatsApp</strong>
+                <p>Struktur homepage mudah diubah menjadi landing page penjualan langsung.</p>
+              </div>
+              <div class="trust-item">
+                <strong>Mudah dipecah ke WordPress</strong>
+                <p>Bagian halaman sudah siap dipisah ke header, front-page, dan footer.</p>
+              </div>
+              <div class="trust-item">
+                <strong>Mobile friendly</strong>
+                <p>Tampilan tetap kuat di layar kecil tanpa mengorbankan karakter visual.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="produk">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>Produk unggulan dengan presentasi yang lebih meyakinkan.</h2>
+            <p>
+              Section ini cocok untuk menampilkan produk utama, paket hemat, atau varian unggulan.
+              Tidak memakai grid kartu generik, tetapi komposisi editorial yang lebih terasa premium.
+            </p>
+          </div>
+
+          <div class="products-layout">
+            <article class="product-feature reveal">
+              <span class="eyebrow">Highlight produk</span>
+              <h3 style="margin-top:16px;">Noni Bali Original</h3>
+              <p>
+                Cocok dijadikan hero product utama. Deskripsikan manfaat umum, karakter rasa, dan
+                alasan mengapa pelanggan memilih produk ini sebagai bagian dari kebiasaan sehat harian.
+              </p>
+
+              <div class="feature-metrics">
+                <div>
+                  <strong>Botol premium</strong>
+                  <span style="color:var(--muted);font-size:.9rem;">Tampilan lebih siap jual</span>
+                </div>
+                <div>
+                  <strong>Rasa khas herbal</strong>
+                  <span style="color:var(--muted);font-size:.9rem;">Tetap alami dan jujur</span>
+                </div>
+                <div>
+                  <strong>Siap kirim</strong>
+                  <span style="color:var(--muted);font-size:.9rem;">Ideal untuk order WA</span>
+                </div>
+              </div>
+
+              <div class="hero-actions" style="margin-top:26px;">
+                <a href="#cta" class="btn btn-primary">Pesan via WhatsApp</a>
+                <a href="#faq" class="btn btn-secondary">Lihat Pertanyaan Umum</a>
+              </div>
+            </article>
+
+            <div class="product-list reveal">
+              <article class="product-item">
+                <div class="product-icon">01</div>
+                <div class="product-copy">
+                  <strong>Noni Bali Original 500ml</strong>
+                  <p>Format utama untuk konsumsi rutin dengan tampilan label yang kuat dan elegan.</p>
+                  <span>Best Seller</span>
+                </div>
+                <div class="price">
+                  <strong>Rp—</strong>
+                  <a href="#cta" class="btn btn-secondary">Detail</a>
+                </div>
+              </article>
+
+              <article class="product-item">
+                <div class="product-icon">02</div>
+                <div class="product-copy">
+                  <strong>Noni Bali Family Pack</strong>
+                  <p>Paket ekonomis untuk penggunaan rumah tangga atau pelanggan yang ingin stok lebih lama.</p>
+                  <span>Paket Hemat</span>
+                </div>
+                <div class="price">
+                  <strong>Rp—</strong>
+                  <a href="#cta" class="btn btn-secondary">Detail</a>
+                </div>
+              </article>
+
+              <article class="product-item">
+                <div class="product-icon">03</div>
+                <div class="product-copy">
+                  <strong>Noni Bali Reseller Bundle</strong>
+                  <p>Cocok untuk agen, mitra daerah, atau penjualan komunitas dengan skema bertahap.</p>
+                  <span>Untuk Mitra</span>
+                </div>
+                <div class="price">
+                  <strong>Rp—</strong>
+                  <a href="#agen" class="btn btn-secondary">Gabung</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tentang">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>Cerita produk yang terasa alami, hangat, dan dekat dengan budaya Bali.</h2>
+            <p>
+              Bagian ini ideal untuk memperkuat trust. Anda bisa menceritakan filosofi brand,
+              proses pemilihan bahan, pendekatan tradisional, atau alasan mengapa Noni Bali berbeda.
+            </p>
+          </div>
+
+          <div class="story-grid">
+            <div class="story-visual reveal" aria-hidden="true">
+              <div class="pattern"></div>
+              <div class="jar"></div>
+              <div class="bowl"></div>
+            </div>
+
+            <div class="story-copy reveal">
+              <span class="eyebrow">Tentang brand</span>
+              <h3 style="margin:16px 0 16px;">Dibangun dengan rasa percaya, bukan sekadar tampilan.</h3>
+              <p>
+                Noni Bali hadir untuk memberi pengalaman herbal yang lebih terarah: visual yang profesional,
+                narasi yang tenang, dan produk yang terasa punya identitas kuat. Ini penting terutama
+                jika Anda menjual melalui WhatsApp, marketplace, atau jaringan agen daerah.
+              </p>
+              <p>
+                Dengan homepage seperti ini, brand Anda tidak terlihat seperti toko template biasa.
+                Ia terasa lebih hidup, lebih matang, dan lebih siap menjadi fondasi theme WordPress custom.
+              </p>
+
+              <div class="story-checks">
+                <div class="story-check">
+                  <i>✓</i>
+                  <div>
+                    <strong>Bisa diarahkan ke trust</strong>
+                    <p>Section ini bagus untuk legalitas, pengalaman brand, atau cerita produksi.</p>
+                  </div>
+                </div>
+                <div class="story-check">
+                  <i>✓</i>
+                  <div>
+                    <strong>Mudah diisi konten nyata</strong>
+                    <p>Teks placeholder bisa diganti dengan data asli tanpa merusak layout.</p>
+                  </div>
+                </div>
+                <div class="story-check">
+                  <i>✓</i>
+                  <div>
+                    <strong>Siap dipecah ke WordPress</strong>
+                    <p>Bisa dipindah ke <code>template-parts/sections/about.php</code> nanti.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="manfaat">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>Empat alasan mengapa layout ini cocok untuk brand herbal premium.</h2>
+            <p>
+              Saya sengaja memakai pendekatan visual yang earthy, refined, dan tidak generik,
+              agar Noni Bali terlihat seperti brand yang dibuat dengan rasa, bukan sekadar template cepat.
+            </p>
+          </div>
+
+          <div class="benefits-wrap">
+            <article class="benefit reveal">
+              <span class="num">01</span>
+              <h3>Karakter visual kuat</h3>
+              <p>Palet warna hangat, hijau daun, dan emas lembut memberi kesan alami sekaligus premium.</p>
+            </article>
+
+            <article class="benefit reveal">
+              <span class="num">02</span>
+              <h3>Hierarki konten jelas</h3>
+              <p>Typography menjadi tulang punggung layout sehingga halaman tetap terbaca walau warna dihilangkan.</p>
+            </article>
+
+            <article class="benefit reveal">
+              <span class="num">03</span>
+              <h3>Konversi lebih mudah</h3>
+              <p>Tombol CTA, produk, testimoni, dan agen sudah disusun untuk mendukung alur pemesanan langsung.</p>
+            </article>
+
+            <article class="benefit reveal">
+              <span class="num">04</span>
+              <h3>Siap jadi theme</h3>
+              <p>Blok halaman ini mudah dipindahkan ke template WordPress yang modular dan lebih terstruktur.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="testimoni">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>Testimoni yang tidak tampil seperti deretan card biasa.</h2>
+            <p>
+              Karena ini adalah bagian daftar ulasan pelanggan, penggunaan item berulang memang masuk akal.
+              Namun tampilannya tetap dibuat lebih editorial dan lembut, bukan grid kotak generik.
+            </p>
+          </div>
+
+          <div class="testi-layout">
+            <aside class="quote-box reveal">
+              <div>
+                <div class="quote-mark">“</div>
+                <h3>Kepercayaan pelanggan lahir dari pengalaman yang konsisten.</h3>
+                <p>
+                  Gunakan area ini untuk menonjolkan kutipan terbaik, pencapaian brand, atau pesan utama
+                  yang ingin langsung ditangkap calon pembeli baru.
+                </p>
+              </div>
+              <div class="hero-actions" style="margin-top:20px;">
+                <a href="#cta" class="btn btn-primary">Saya Ingin Order</a>
+              </div>
+            </aside>
+
+            <div class="testi-list reveal">
+              <article class="testi-item">
+                <div class="testi-head">
+                  <div style="display:flex;align-items:center;gap:12px;">
+                    <div class="avatar">DS</div>
+                    <div>
+                      <strong>Dewi S.</strong>
+                      <p style="font-size:.88rem;">Denpasar</p>
+                    </div>
+                  </div>
+                  <div class="stars">★★★★★</div>
+                </div>
+                <p>
+                  “Tampilannya profesional, produknya terasa lebih terpercaya, dan saya suka narasi brand-nya
+                  yang tidak berlebihan.”
+                </p>
+              </article>
+
+              <article class="testi-item">
+                <div class="testi-head">
+                  <div style="display:flex;align-items:center;gap:12px;">
+                    <div class="avatar">AR</div>
+                    <div>
+                      <strong>Adi R.</strong>
+                      <p style="font-size:.88rem;">Gianyar</p>
+                    </div>
+                  </div>
+                  <div class="stars">★★★★★</div>
+                </div>
+                <p>
+                  “Kalau dipakai untuk landing page order WA, struktur seperti ini sangat membantu karena
+                  calon pembeli langsung paham produk dan trust-nya terasa.”
+                </p>
+              </article>
+
+              <article class="testi-item">
+                <div class="testi-head">
+                  <div style="display:flex;align-items:center;gap:12px;">
+                    <div class="avatar">LM</div>
+                    <div>
+                      <strong>Luh M.</strong>
+                      <p style="font-size:.88rem;">Tabanan</p>
+                    </div>
+                  </div>
+                  <div class="stars">★★★★★</div>
+                </div>
+                <p>
+                  “Visual herbalnya mewah tapi tetap membumi. Sangat cocok untuk brand lokal yang ingin naik kelas.”
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="agen">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>Halaman depan yang juga siap mendukung jaringan agen daerah.</h2>
+            <p>
+              Jika Noni Bali ingin tumbuh lewat reseller atau agen regional, homepage perlu memberi
+              tempat khusus bagi mereka. Bagian ini dirancang untuk itu.
+            </p>
+          </div>
+
+          <div class="agent-layout">
+            <div class="agent-panel reveal">
+              <span class="eyebrow">Agen daerah</span>
+              <h3 style="margin-top:16px;">Contoh penempatan jaringan distribusi</h3>
+
+              <div class="agent-list">
+                <div class="agent">
+                  <div class="agent-badge">DP</div>
+                  <div>
+                    <strong>Denpasar</strong>
+                    <small>Agen aktif untuk area kota dan sekitarnya</small>
+                  </div>
+                  <a href="#cta" class="btn btn-secondary">Hubungi</a>
+                </div>
+
+                <div class="agent">
+                  <div class="agent-badge">GI</div>
+                  <div>
+                    <strong>Gianyar</strong>
+                    <small>Distribusi untuk wilayah timur dan komunitas sehat</small>
+                  </div>
+                  <a href="#cta" class="btn btn-secondary">Hubungi</a>
+                </div>
+
+                <div class="agent">
+                  <div class="agent-badge">TB</div>
+                  <div>
+                    <strong>Tabanan</strong>
+                    <small>Mitra penjualan lokal dengan sistem pemesanan langsung</small>
+                  </div>
+                  <a href="#cta" class="btn btn-secondary">Hubungi</a>
+                </div>
+              </div>
+            </div>
+
+            <aside class="cta-panel reveal" id="cta">
+              <span class="eyebrow" style="background:rgba(255,255,255,.1); border-color:rgba(255,255,255,.16); color:#fff;">Call to action</span>
+              <h2 style="margin-top:18px;">Siap dijadikan landing page order WhatsApp.</h2>
+              <p>
+                Setelah HTML ini disetujui, saya bisa bantu ubah menjadi theme WordPress modular:
+                <code>header.php</code>, <code>front-page.php</code>, <code>footer.php</code>, CSS utama,
+                JS interaksi, dan template halaman lain yang konsisten.
+              </p>
+              <div class="cta-actions">
+                <a href="https://wa.me/6200000000000" class="btn btn-light" target="_blank" rel="noopener">Chat WhatsApp</a>
+                <a href="#produk" class="btn btn-ghost">Lihat Produk</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>Pertanyaan yang sering muncul sebelum pembeli memesan.</h2>
+            <p>
+              FAQ ini berguna untuk mengurangi keraguan awal dan membuat CTA terasa lebih natural.
+              Nantinya bisa diisi konten asli sesuai produk Noni Bali Anda.
+            </p>
+          </div>
+
+          <div class="faq-wrap">
+            <div class="faq-item reveal active">
+              <button class="faq-btn" type="button" aria-expanded="true">
+                <span>Apakah HTML ini bisa langsung dijadikan theme WordPress?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-content" style="max-height: 240px;">
+                <div class="faq-content-inner">
+                  <p>
+                    Ya. Struktur section-nya sudah disusun agar mudah dipecah ke file WordPress seperti
+                    <code>header.php</code>, <code>front-page.php</code>, <code>footer.php</code>,
+                    dan <code>template-parts</code>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <button class="faq-btn" type="button" aria-expanded="false">
+                <span>Apakah desain ini cocok untuk brand herbal seperti Noni Bali?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  <p>
+                    Sangat cocok. Arah visualnya memakai nuansa earthy-luxury: hangat, natural, refined,
+                    dan jauh dari tampilan AI generik atau landing page obat yang terlalu agresif.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <button class="faq-btn" type="button" aria-expanded="false">
+                <span>Bisakah nanti ditambah custom post type produk dan halaman agen?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  <p>
+                    Bisa. Nanti saya bisa bantu membangun ulang menjadi theme modular lengkap dengan
+                    CPT <code>noni_product</code>, archive produk, single produk, dan template halaman khusus.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <button class="faq-btn" type="button" aria-expanded="false">
+                <span>Apakah konten placeholder ini bisa diganti dengan data asli saya?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  <p>
+                    Tentu. Semua teks, angka, tombol, lokasi agen, harga, dan CTA bisa diganti tanpa
+                    merusak struktur visual utama.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-shell reveal">
+            <div>
+              <a href="#home" class="brand" style="margin-bottom:18px;">
+                <div class="brand-mark">NB</div>
+                <div class="brand-copy">
+                  <strong>Noni Bali</strong>
+                  <span>Homepage concept for WordPress theme</span>
+                </div>
+              </a>
+              <p>
+                Homepage ini dibuat sebagai fondasi visual untuk pengembangan theme WordPress Noni Bali:
+                lebih bersih, lebih modular, lebih mudah dirawat, dan lebih siap dikembangkan.
+              </p>
+              <div class="copyright">
+                © 2026 Noni Bali. All rights reserved.
+              </div>
+            </div>
+
+            <div class="footer-grid">
+              <div>
+                <h3>Produk</h3>
+                <div class="footer-links">
+                  <a href="#produk">Noni Original</a>
+                  <a href="#produk">Family Pack</a>
+                  <a href="#agen">Paket Mitra</a>
+                </div>
+              </div>
+
+              <div>
+                <h3>Informasi</h3>
+                <div class="footer-links">
+                  <a href="#tentang">Tentang Brand</a>
+                  <a href="#manfaat">Manfaat</a>
+                  <a href="#faq">FAQ</a>
+                </div>
+              </div>
+
+              <div>
+                <h3>Kontak</h3>
+                <div class="footer-links">
+                  <a href="#cta">WhatsApp</a>
+                  <a href="#agen">Agen Daerah</a>
+                  <a href="#testimoni">Testimoni</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const siteNav = document.getElementById('siteNav');
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener('click', () => {
+        const isOpen = siteNav.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+
+      siteNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          siteNav.classList.remove('open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    document.querySelectorAll('.faq-item').forEach(item => {
+      const btn = item.querySelector('.faq-btn');
+      const content = item.querySelector('.faq-content');
+
+      btn.addEventListener('click', () => {
+        const open = item.classList.contains('active');
+
+        document.querySelectorAll('.faq-item').forEach(other => {
+          other.classList.remove('active');
+          other.querySelector('.faq-btn').setAttribute('aria-expanded', 'false');
+          other.querySelector('.faq-content').style.maxHeight = null;
+        });
+
+        if (!open) {
+          item.classList.add('active');
+          btn.setAttribute('aria-expanded', 'true');
+          content.style.maxHeight = content.scrollHeight + 'px';
+        }
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+        }
+      });
+    }, { threshold: 0.14 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
