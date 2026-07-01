@@ -158,75 +158,75 @@ $navtype = get_theme_option('navigation_font');
 
 if ($bodytype == "" || $bodytype == "Choose a font"){ ?>
 <?php } else if ($bodytype == "Open Sans, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Josefin Slab, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Arvo, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Lato, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "PT Sans, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "PT Serif, serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Cantarell, arial, serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Cardo, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Crimson Text, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Droid Sans, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Droid Serif, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "IM Fell DW Pica, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Josefin Sans Std Light, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Lobster, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Molengo, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Neuton, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Nobile, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "OFL Sorts Mill Goudy TT, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Reenie Beanie, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Tangerine, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Old Standard TT, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Volkorn, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Volkorn' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Volkorn' rel='stylesheet' type='text/css'/>
 <?php } else if ($bodytype == "Yanone Kaffeesatz, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Just Another Hand, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Terminal Dosis Light, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Ubuntu, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,regular,bold' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:light,regular,bold' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Ropa Sans, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Asap, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Lilita One, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Telex, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Lustria, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Duru Sans, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Oswald, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Tienne, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Tienne:400,700,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Tienne:400,700,900' rel='stylesheet' type='text/css'>
 <?php } else if ($bodytype == "Signika, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
 <?php }
 
 
@@ -235,150 +235,150 @@ if ($bodytype == "" || $bodytype == "Choose a font"){ ?>
 
 if ($navtype == "" || $navtype == "Choose a font"){ ?>
 <?php } else if ($navtype == "Open Sans, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Josefin Slab, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Arvo, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Lato, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "PT Sans, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "PT Serif, serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Cantarell, arial, serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Cardo, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Crimson Text, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Droid Sans, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Droid Serif, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "IM Fell DW Pica, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Josefin Sans Std Light, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Lobster, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Molengo, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Neuton, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Nobile, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "OFL Sorts Mill Goudy TT, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Reenie Beanie, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Tangerine, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Old Standard TT, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Volkorn, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Volkorn' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Volkorn' rel='stylesheet' type='text/css'/>
 <?php } else if ($navtype == "Yanone Kaffeesatz, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Just Another Hand, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Terminal Dosis Light, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Ubuntu, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,regular,bold' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:light,regular,bold' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Ropa Sans, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Asap, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Lilita One, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Telex, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Lustria, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Duru Sans, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Oswald, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Tienne, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Tienne:400,700,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Tienne:400,700,900' rel='stylesheet' type='text/css'>
 <?php } else if ($navtype == "Signika, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
 <?php }
 
 
 
 if ($headtype == "" || $headtype == "Choose a font"){ ?>
 <?php } else if ($headtype == "Open Sans, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Josefin Slab, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Arvo, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Lato, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "PT Sans, arial, sans-serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "PT Serif, serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Cantarell, arial, serif" ){ ?>
-<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Cardo, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Crimson Text, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Droid Sans, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Droid Serif, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "IM Fell DW Pica, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Josefin Sans Std Light, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Lobster, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Molengo, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Neuton, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Nobile, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "OFL Sorts Mill Goudy TT, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Reenie Beanie, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Tangerine, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Old Standard TT, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Volkorn, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Volkorn' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Volkorn' rel='stylesheet' type='text/css'/>
 <?php } else if ($headtype == "Yanone Kaffeesatz, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Just Another Hand, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Terminal Dosis Light, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Ubuntu, arial, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,regular,bold' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:light,regular,bold' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Ropa Sans, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Asap, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Lilita One, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Telex, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Lustria, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Duru Sans, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Oswald, arial, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Tienne, serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Tienne:400,700,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Tienne:400,700,900' rel='stylesheet' type='text/css'>
 <?php } else if ($headtype == "Signika, sans-serif"){ ?>
-<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
 <?php }
 
 }
@@ -721,40 +721,6 @@ if ( $_REQUEST['saved'] ) echo '<div class="updated fade"><p><strong>'. $theme_n
 if ( $_REQUEST['reset'] ) echo '<div class="updated fade"><p><strong>'. $theme_name . __(' settings reset.', TEMPLATE_DOMAIN) . '</strong></p></div>';
 ?>
 
-
-<!-- START ANNOUCE -->
-<div id="announce">
-
-<h1>Thank You For Using <?php echo $theme_name; ?> WordPress Theme By <a rel="nofollow" href="http://www.magpress.com" target="_blank">MagPress.com</a></h1>
-<p id="rss">Don't forget to <a href="http://feedburner.google.com/fb/a/mailverify?uri=MagPress&loc=en_US" title="MagPress RSS Feed" rel="nofollow" onclick="window.open('http://feedburner.google.com/fb/a/mailverify?uri=MagPress&loc=en_US','popup','width=700,height=500,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=50,top=0'); return false">SUBSCRIBE OUR RSS FEED</a> to receive latest themes updates.</p>
-<p id="note">Note: This free version contained advertisement and sponsored links. If you're interested in purchasing a developer's license for this theme.<br />please go to this <a href="http://www.magpress.com/developer-license" target="_blank">developer license purchase page</a>. Thanks.</p>
-
-<div id="fbbox">
-<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FMagPress%2F174211329277208&amp;width=300&amp;height=370&amp;colorscheme=light&amp;show_faces=true&amp;border_color=%23d8dfea&amp;stream=false&amp;header=true&amp;appId=235560553158042" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:370px;" allowTransparency="true"></iframe>
-</div>
-
-<div id="sponsored">
-<h6>MagPress.com Premium Themes</h6>
-<div id="content">
-<?php if(function_exists('fetch_feed')) {
-include_once(ABSPATH . WPINC . '/feed.php'); // the file to rss feed generator
-$feed = fetch_feed('http://www.magpress.com/category/premium-themes/feed'); // specify the rss feed
-$pt = 1;
-$limit = $feed->get_item_quantity(4); // specify number of items
-$items = $feed->get_items(0, $limit); // create an array of items
-}
-if ($limit == 0) echo '<div>The feed is either empty or unavailable.</div>';
-else foreach ($items as $item) : ?>
-<div class="premium-theme-list pt<?php echo $pt; ?>"><h2><?php echo $item->get_title(); ?></h2>
-<?php echo substr($item->get_description(), 0, 240); ?>...<a target="_blank" href="<?php echo $item->get_permalink(); ?>" alt="<?php echo $item->get_title(); ?>">View Details &raquo;</a>
-</div>
-<?php $pt++; endforeach; ?>
-<a class="more-themes" target="_blank" title="check out more premium themes from magpress.com" href="http://www.magpress.com/category/premium-themes">More Premium Themes &raquo;</a>
-</div><!-- CONTENT END -->
-</div><!-- SPONSORED END -->
-
-</div><!-- END ANNOUCE -->
-
 <form id="wp-theme-options" method="post" action="" enctype="multipart/form-data">
 
 <table class="form-table">
@@ -768,59 +734,78 @@ else foreach ($items as $item) : ?>
 
 <?php if ( $value['type'] == "text" ) { ?>
 
-<tr valign="top"><th scope="row"><?php echo $value['name']; ?></th>
+<tr valign="top"><th scope="row"><?php echo esc_html( $value['name'] ); ?></th>
 <td>
-<input class="regular-text" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" type="<?php echo $value['type']; ?>" value="<?php if ( get_option( $value['id'] ) != "") { echo stripslashes(get_option( $value['id']) ); } else { echo stripslashes($value['default']); } ?>" /><br />
-<label class="description" for="<?php echo $value['id']; ?>"><?php echo $value['description']; ?></label>
+<input
+    class="regular-text"
+    name="<?php echo esc_attr( $value['id'] ); ?>"
+    id="<?php echo esc_attr( $value['id'] ); ?>"
+    type="<?php echo esc_attr( $value['type'] ); ?>"
+    value="<?php echo esc_attr( stripslashes( get_option( $value['id'], $value['default'] ) ) ); ?>"
+/>
+
+<br />
+
+<label class="description" for="<?php echo esc_attr( $value['id'] ); ?>">
+    <?php echo esc_html( $value['description'] ); ?>
+</label>
 </td>
 </tr>
 
 <?php } else if ( $value['type'] == "uploads" ) { ?>
 
-<tr valign="top"><th scope="row"><?php echo $value['name']; ?></th>
+<tr valign="top"><th scope="row"><?php echo esc_html( $value['name'] ); ?></th>
 <td>
 <?php if( file_exists( $option_upload_path . '/' . $value['filename'] . '.jpg') ) { ?>
-<img src="<?php echo $option_upload_url . '/' . $value['filename'] . '.jpg'; ?>" alt="<?php echo $value['id']; ?>" />
+<img
+    src="<?php echo esc_url( $option_upload_url . '/' . $value['filename'] . '.jpg' ); ?>"
+    alt="<?php echo esc_attr( $value['id'] ); ?>"
+/>
 <br /><input type="submit" class="button-secondary" name="delete_<?php echo $value['filename']; ?>" value="Delete this image &raquo;" />
 <?php } else { ?>
-<input type="file" id="<?php echo $value['id']; ?>" name="<?php echo $value['filename']; ?>" size="50" />
+<input
+    type="file"
+    id="<?php echo esc_attr( $value['id'] ); ?>"
+    name="<?php echo esc_attr( $value['filename'] ); ?>"
+    size="50"
+/>
 <br />
-<label class="description" for="<?php echo $value['id']; ?>"><?php echo $value['description']; ?></label>
+<label class="description" for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['description'] ); ?></label>
 <?php } ?>
 </td>
 </tr>
 
 <?php } elseif ( $value['type'] == "radio" ) { // setting ?>
 
-<tr valign="top"><th scope="row"><?php echo $value['name']; ?></th>
+<tr valign="top"><th scope="row"><?php echo esc_html( $value['name'] ); ?></th>
 <td>
-<?php foreach ($value['options'] as $option) {
+<?php foreach ( $value['options'] as $option) {
 $radio_setting = get_option($value['id']);
 if($radio_setting != '') {
 if (get_option($value['id']) == $option) { $checked = "checked=\"checked\""; } else { $checked = ""; }
 } else {
 if(get_option($value['id']) == $value['default'] ){ $checked = "checked=\"checked\""; } else { $checked = ""; }
 } ?>
-<input id="<?php echo $value['hide_call']; ?>" type="radio" name="<?php echo $value['id']; ?>" value="<?php echo $option; ?>" <?php echo $checked; ?> />&nbsp;<?php echo $option; ?>&nbsp;&nbsp;&nbsp;
+<input id="<?php echo $value['hide_call']; ?>" type="radio" name="<?php echo esc_attr( $value['id'] ); ?>" value="<?php echo $option; ?>" <?php echo $checked; ?> />&nbsp;<?php echo $option; ?>&nbsp;&nbsp;&nbsp;
 <?php } ?>
-<br /><label class="description" for="<?php echo $value['id']; ?>"><?php echo $value['description']; ?></label>
+<br /><label class="description" for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['description'] ); ?></label>
 </td>
 </tr>
 
 
 <?php } elseif ( $value['type'] == "checkbox" ) { // setting ?>
 
-<tr valign="top"><th scope="row"><?php echo $value['name']; ?></th>
+<tr valign="top"><th scope="row"><?php echo esc_html( $value['name'] ); ?></th>
 <td>
 <?php if(get_option($value['id'])) { $checked = "checked=\"checked\""; } else { $checked = ""; } ?>
-<input type="<?php echo $value['type']; ?>" class="checkbox" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" value="<?php echo $value['id']; ?>" <?php echo $checked; ?> />&nbsp;&nbsp;<?php echo $value['name']; ?>
-<br /><label class="description" for="<?php echo $value['id']; ?>"><?php echo $value['description']; ?></label>
+<input type="<?php echo $value['type']; ?>" class="checkbox" name="<?php echo esc_attr( $value['id'] ); ?>" id="<?php echo esc_attr( $value['id'] ); ?>" value="<?php echo esc_attr( $value['id'] ); ?>" <?php echo $checked; ?> />&nbsp;&nbsp;<?php echo esc_html( $value['name'] ); ?>
+<br /><label class="description" for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['description'] ); ?></label>
 </td>
 </tr>
 
 <?php } elseif ( $value['type'] == "textarea" ) { // setting ?>
 
-<tr valign="top"><th scope="row"><?php echo $value['name']; ?></th>
+<tr valign="top"><th scope="row"><?php echo esc_html( $value['name'] ); ?></th>
 <td>
 <?php
 $valuex = $value['id'];
@@ -829,47 +814,61 @@ $video_code = get_option($valuey);
 ?>
 <textarea name="<?php echo $valuey; ?>" class="mytext" cols="60%" rows="8" /><?php if ( get_option($valuey) != "") { echo stripslashes($video_code); } else { echo $value['default']; } ?>
 </textarea><br />
-<label class="description" for="<?php echo $value['id']; ?>"><?php echo $value['description']; ?></label>
+<label class="description" for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['description'] ); ?></label>
 </td>
 </tr>
 
 <?php } elseif ( $value['type'] == "colorpicker" ) { ?>
 
-<tr valign="top"><th scope="row"><?php echo $value['name']; ?></th>
+<tr valign="top"><th scope="row"><?php echo esc_html( $value['name'] ); ?></th>
 <td>
 
 <div id="<?php echo esc_attr( $value['id'] . '_picker' ); ?>" class="colorSelector">
-<div style="background-color:<?php if( get_option( $value['id'] )) { echo get_option( $value['id'] ); } ?>"></div></div>&nbsp;
-<input class="of-color" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" type="text" value="<?php if( get_option( $value['id'] )) { echo get_option( $value['id'] ); } ?>" /><br /><label class="description" for="<?php echo $value['id']; ?>">&nbsp;&nbsp;<?php echo $value['description']; ?></label>
-</td>
-</tr>
+    <div style="background-color:<?php echo esc_attr( get_option( $value['id'] ) ); ?>"></div>
+</div>
+
+&nbsp;
+
+<input
+    class="of-color"
+    name="<?php echo esc_attr( $value['id'] ); ?>"
+    id="<?php echo esc_attr( $value['id'] ); ?>"
+    type="text"
+    value="<?php echo esc_attr( get_option( $value['id'] ) ); ?>"
+/>
+
+<br />
+
+<label class="description" for="<?php echo esc_attr( $value['id'] ); ?>">
+    &nbsp;&nbsp;<?php echo esc_html( $value['description'] ); ?>
+</label>
 
 
 <?php } elseif ( $value['type'] == "select" ) { ?>
 
-<tr class="<?php echo $value['hide_blk']; ?>" valign="top"><th scope="row"><?php echo $value['name']; ?></th>
+<tr class="<?php echo $value['hide_blk']; ?>" valign="top"><th scope="row"><?php echo esc_html( $value['name'] ); ?></th>
 <td>
-<select name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>">
+<select name="<?php echo esc_attr( $value['id'] ); ?>" id="<?php echo esc_attr( $value['id'] ); ?>">
 <?php foreach ($value['options'] as $option) { ?>
 <option<?php if ( get_option( $value['id'] ) == $option) { echo ' selected="selected"'; } elseif ($option == $value['default']) { echo ' selected="selected"'; } ?>><?php echo $option; ?></option>
 <?php } ?>
 </select><br />
-<label class="description" for="<?php echo $value['id']; ?>"><?php echo $value['description']; ?></label>
+<label class="description" for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['description'] ); ?></label>
 </td>
 </tr>
 
 
 <?php } elseif ( $value['type'] == "select-fonts" ) { ?>
 
-<tr valign="top"><th scope="row"><?php echo $value['name']; ?></th>
+<tr valign="top"><th scope="row"><?php echo esc_html( $value['name'] ); ?></th>
 <td>
-<select name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>">
+<select name="<?php echo esc_attr( $value['id'] ); ?>" id="<?php echo esc_attr( $value['id'] ); ?>">
 <?php foreach ($value['options'] as $option) { ?>
 <option style="font-family:<?php echo $option; ?>;" <?php if ( get_option( $value['id'] ) == $option) { echo ' selected="selected"'; } elseif ($option == get_option( $value['default']) ) { echo ' selected="selected"'; } ?>><?php echo $option; ?></option>
 <?php } ?>
 </select>
 <br />
-<label class="description" for="<?php echo $value['id']; ?>"><?php echo $value['description']; ?></label>
+<label class="description" for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['description'] ); ?></label>
 </td>
 </tr>
 
@@ -878,7 +877,7 @@ $video_code = get_option($valuey);
 
 <tr valign="top"><th scope="row"></th>
 <td>
-<p class="<?php echo $value['hide_blk']; ?> notice"><?php echo $value['description']; ?></p>
+<p class="<?php echo $value['hide_blk']; ?> notice"><?php echo esc_html( $value['description'] ); ?></p>
 </td>
 </tr>
 
